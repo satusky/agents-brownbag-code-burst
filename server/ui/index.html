@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snippet</title>
+    <link rel="stylesheet" href="/static/theme/tokens.css" />
+    <link rel="stylesheet" href="/static/components/chat/chat.css" />
+    <style>
+      /* Wrap long lines in code blocks (sample inputs, tables) instead of scrolling. */
+      .chat-bubble pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+    </style>
+  </head>
+  <body>
+    <chat-view></chat-view>
+    <script type="module">
+      import "/static/components/chat/chat-view.js";
+      import { connectChat } from "/static/lib/connection.js";
+
+      // llm-demos' chat page, except that each snippet is mounted at /<id>/,
+      // so its socket is /<id>/ws rather than /ws.
+      const path = location.pathname.replace(/\/?$/, "/ws");
+      connectChat(document.querySelector("chat-view"), { path });
+    </script>
+  </body>
+</html>

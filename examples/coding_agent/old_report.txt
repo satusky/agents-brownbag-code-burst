@@ -1,0 +1,5 @@
+Proposal status report — generated 2026-08-15 (stale; superseded by example.py).
+
+NSF Coastal Resilience Hub: open
+DOE Earth Systems Data: open
+NIH Genomic Data Commons: open

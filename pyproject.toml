@@ -1,0 +1,32 @@
+[project]
+name = "brown-bag-demos"
+version = "0.1.0"
+description = "LangGraph pattern snippets, a coding agent, and a chat UI server for the custom agents brown bag"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.142.2",
+    "langchain-core>=1.6.7",
+    "langchain-openai>=1.6.7",
+    "langgraph>=1.2.14",
+    "llm-demos",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[tool.uv.sources]
+llm-demos = { path = "../llm-demos", editable = true }  # the chat UI (server/serve.py)
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.6,<0.10"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
