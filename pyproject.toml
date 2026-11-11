@@ -1,5 +1,5 @@
 [project]
-name = "brown-bag-demos"
+name = "agents-brownbag-code-burst"
 version = "0.1.0"
 description = "LangGraph pattern snippets, a coding agent, and a chat UI server for the custom agents brown bag"
 readme = "README.md"

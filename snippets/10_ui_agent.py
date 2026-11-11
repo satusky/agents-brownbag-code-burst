@@ -3,15 +3,15 @@
 agent (model with coding tools) ⇄ tools
 """
 
-# The loop and tools of the coding agent (brown_bag_demos/coding_agent.py) with its
+# The loop and tools of the coding agent (agents_brownbag_code_burst/coding_agent.py) with its
 # own system prompt. Run it in the chat UI: server/serve.py makes its project folder a
 # copy of the page's stylesheets, and the page picks up every .css file the agent saves.
 
 from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
-from brown_bag_demos.coding_tools import CODING_TOOLS
-from brown_bag_demos.models import get_model
+from agents_brownbag_code_burst.coding_tools import CODING_TOOLS
+from agents_brownbag_code_burst.models import get_model
 
 SYSTEM = (
     "You are a coding agent. "

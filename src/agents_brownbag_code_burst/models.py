@@ -24,7 +24,7 @@ from typing import Any
 
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
 
-from brown_bag_demos.config import get_settings
+from agents_brownbag_code_burst.config import get_settings
 
 
 class ModelNotConfigured(RuntimeError):

@@ -1,10 +1,10 @@
-# Brown bag demos
+# agents-brownbag-code-burst
 
 The demos for the custom agents brown bag:
 
 - `snippets/`: the smallest version of each LangGraph workflow pattern, for slides.
 - `server/`: runs every snippet as a chat in the llm-demos chat UI.
-- the coding agent: `src/brown_bag_demos/coding_agent.py`, its tools, and the small
+- the coding agent: `src/agents_brownbag_code_burst/coding_agent.py`, its tools, and the small
   project it works on.
 
 The full seminar stages these snippets are cut down from are in
@@ -84,15 +84,15 @@ what to ask for, a sample input, and how a message becomes the graph's input.
 
 ## The coding agent
 
-`src/brown_bag_demos/coding_agent.py` is the classic loop: a model bound to four
+`src/agents_brownbag_code_burst/coding_agent.py` is the classic loop: a model bound to four
 tools, and a `ToolNode`, until the model stops calling tools. The tools are in
 `coding_tools.py`: `read_file`, `edit_file`, `write_file`, and a `bash` that runs
 only `ls`, `grep` and `python example.py`. Each run works in its own copy of
 `examples/coding_agent/`, whose `example.py` fails; the template is never changed.
 
 ```bash
-uv run python -m brown_bag_demos.coding_agent                       # "example.py fails. Find the bug and fix it."
-uv run python -m brown_bag_demos.coding_agent "Add a days_left column to the report"
+uv run python -m agents_brownbag_code_burst.coding_agent                       # "example.py fails. Find the bug and fix it."
+uv run python -m agents_brownbag_code_burst.coding_agent "Add a days_left column to the report"
 ```
 
 `snippets/10_ui_agent.py` is the same loop and tools with its own system prompt and
@@ -103,7 +103,7 @@ a `project_dir` in the run's config, so it works on the chat page instead.
 ```
 snippets/                  01–10, one pattern each
 server/serve.py            the chat server; server/ui/index.html is its chat page
-src/brown_bag_demos/
+src/agents_brownbag_code_burst/
   config.py                settings from .env (see .env.example)
   models.py                get_model(), shared by everything
   coding_agent.py          the coding agent

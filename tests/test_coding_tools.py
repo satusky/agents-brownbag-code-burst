@@ -2,7 +2,7 @@
 
 import pytest
 
-from brown_bag_demos.coding_tools import TEMPLATE, bash, edit_file, read_file, workdir, write_file
+from agents_brownbag_code_burst.coding_tools import TEMPLATE, bash, edit_file, read_file, workdir, write_file
 
 
 def cfg(name):

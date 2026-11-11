@@ -10,7 +10,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.types import Send
 from pydantic import BaseModel
 
-from brown_bag_demos.models import get_model
+from agents_brownbag_code_burst.models import get_model
 
 llm = get_model()
 

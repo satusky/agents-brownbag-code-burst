@@ -7,7 +7,7 @@ from typing import TypedDict
 
 from langgraph.graph import END, START, StateGraph
 
-from brown_bag_demos.models import get_model
+from agents_brownbag_code_burst.models import get_model
 
 llm = get_model()
 

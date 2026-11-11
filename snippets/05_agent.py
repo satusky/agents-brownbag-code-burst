@@ -9,7 +9,7 @@ from langchain_core.tools import tool
 from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
-from brown_bag_demos.models import get_model
+from agents_brownbag_code_burst.models import get_model
 
 
 @tool

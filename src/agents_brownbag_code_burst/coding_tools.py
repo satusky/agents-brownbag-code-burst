@@ -21,7 +21,7 @@ from pathlib import Path
 from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool
 
-from brown_bag_demos.config import EXAMPLES_DIR
+from agents_brownbag_code_burst.config import EXAMPLES_DIR
 
 TEMPLATE = EXAMPLES_DIR / "coding_agent"
 ALLOWED = {"ls", "grep"}  # plus the one example run: python example.py

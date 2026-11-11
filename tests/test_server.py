@@ -8,7 +8,7 @@ from fastapi.testclient import TestClient
 from langchain_core.language_models import GenericFakeChatModel
 from langchain_core.messages import AIMessage
 
-from brown_bag_demos.config import PROJECT_ROOT
+from agents_brownbag_code_burst.config import PROJECT_ROOT
 
 loader = importlib.util.spec_from_file_location("serve", PROJECT_ROOT / "server" / "serve.py")
 serve = sys.modules["serve"] = importlib.util.module_from_spec(loader)

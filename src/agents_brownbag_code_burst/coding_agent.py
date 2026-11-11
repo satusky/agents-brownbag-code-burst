@@ -9,14 +9,14 @@ files inside the project only, and a bash that runs just ``ls``, ``grep`` and
 It works on a copy of ``examples/coding_agent/``, whose ``example.py`` fails.
 
 Guide: https://docs.langchain.com/oss/python/langgraph/workflows-agents#agents
-Run:   uv run python -m brown_bag_demos.coding_agent ["a task"]
+Run:   uv run python -m agents_brownbag_code_burst.coding_agent ["a task"]
 """
 
 from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
-from brown_bag_demos.coding_tools import CODING_TOOLS, workdir
-from brown_bag_demos.models import get_model
+from agents_brownbag_code_burst.coding_tools import CODING_TOOLS, workdir
+from agents_brownbag_code_burst.models import get_model
 
 # ----------------------------------------------------------------- prompts
 SYSTEM = (
