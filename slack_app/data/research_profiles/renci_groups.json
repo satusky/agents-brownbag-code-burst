@@ -1,0 +1,88 @@
+{
+  "_note": "RENCI's research groups as described on https://renci.org/research/groups/ (retrieved 2026-10-07). Used by the routing and custom workflow stages (orchestrator-worker and subgraphs read renci.md and let the model list the groups). search_terms are the fixed queries the custom workflow runs for each group.",
+  "organization": "Renaissance Computing Institute (RENCI), UNC-Chapel Hill",
+  "groups": [
+    {
+      "id": "analytics",
+      "name": "Analytics and Data Science",
+      "focus": "Partners with researchers across domains to advance their research by applying analytics: AI and machine learning, visual analytics, and semantic web and knowledge graph technologies.",
+      "expertise": ["AI and machine learning", "visual analytics", "semantic web and knowledge graphs", "biomedical data integration"],
+      "projects": [
+        "NCATS Biomedical Data Translator: knowledge-graph-based integration of biomedical datasets",
+        "ROBOKOP: biomedical question answering over knowledge graphs",
+        "HEAL Data Stewardship Group and HEAL Semantic Search",
+        "Dug Semantic Search for biomedical datasets",
+        "Imageomics Institute: machine learning on biological images",
+        "NC TraCS informatics",
+        "MM-ARIEL: multimodal machine learning for autoimmune disease diagnosis"
+      ],
+      "search_terms": ["biomedical knowledge graph", "machine learning biomedical data", "semantic search"],
+      "url": "https://renci.org/research/groups/analytics-data-science/"
+    },
+    {
+      "id": "data_management",
+      "name": "Data Management",
+      "focus": "Data planning, collection, standardization, documentation, storage, sharing and long-term preservation; develops and maintains iRODS, open-source policy-based data management software.",
+      "expertise": ["policy-based data management", "data standardization and documentation", "data storage and sharing", "long-term data preservation", "open-source research software"],
+      "projects": [
+        "iRODS: open-source, policy-based data management software",
+        "iRODS Consortium",
+        "Evryscope: petabyte-scale astronomical image data managed with iRODS",
+        "Lifetime Library: trusted storage for students and alumni",
+        "RESOLVE survey data",
+        "MESA: AI-driven discovery of publicly funded research data through curated metadata"
+      ],
+      "search_terms": ["research data management", "data repository preservation", "open source research software"],
+      "url": "https://renci.org/research/groups/data-management/"
+    },
+    {
+      "id": "earth_data",
+      "name": "Earth Data Science",
+      "focus": "Advances fundamental science and informs decision-making on climate, weather, natural hazards and environmental health, with projects on coastal hazards, environmental health and geospatial systems.",
+      "expertise": ["ocean and storm surge modeling (ADCIRC)", "geospatial analytics", "machine learning", "remote sensing", "software engineering"],
+      "projects": [
+        "Multi-decadal coastal water level reanalysis with ADCIRC",
+        "ADCIRC storm surge and wind-wave applications, including probabilistic hurricane forecasting",
+        "Coastal Hazards, Economic Prosperity, and Resilience Hub (NSF)",
+        "Galapagos Science Center"
+      ],
+      "search_terms": ["coastal flooding storm surge", "coastal resilience hazards", "weather climate modeling"],
+      "url": "https://renci.org/research/groups/earth-data-science/"
+    },
+    {
+      "id": "networking",
+      "name": "Networking Research and Infrastructure",
+      "focus": "Creates cyberinfrastructure for scientific research, drawing on expertise in networking, architectures, distributed systems and applications to enable secure collaboration and data management.",
+      "expertise": ["networking", "distributed systems", "research testbeds", "scientific workflows", "cybersecurity"],
+      "projects": [
+        "FABRIC: national testbed for networking, cybersecurity, distributed computing and machine learning research",
+        "FABRIC Across Borders",
+        "CI Compass: cyberinfrastructure support for NSF Major Facilities",
+        "PegasusAI: AI-integrated workflow management",
+        "SWARM: resilient workflow execution across distributed resources",
+        "AW-SDX: software-defined exchange points",
+        "Chameleon Cloud testbed",
+        "AERPAW: advanced wireless and aerial research platform"
+      ],
+      "search_terms": ["cyberinfrastructure", "network testbed", "scientific workflows distributed computing"],
+      "url": "https://renci.org/research/groups/networking-research-infrastructure/"
+    },
+    {
+      "id": "software",
+      "name": "Software Architecture",
+      "focus": "Develops cloud computing data science platforms and environments, and scalable knowledge management methods such as full-text search augmented with knowledge graphs and machine learning.",
+      "expertise": ["cloud data science platforms", "full-text search", "knowledge graphs", "secure clinical research data environments", "machine learning infrastructure"],
+      "projects": [
+        "HeLx: cloud command center for data science communities",
+        "EduHeLx: browser-based teaching environment for data science",
+        "ORDR(D): secure environment for de-identified UNC Health data",
+        "Clinical Trial Management Dashboard",
+        "Cardiac Device Surveillance Registry",
+        "mindLAMP: digital phenotyping",
+        "AI Sandbox: shared GPU environment for AI/ML experiments"
+      ],
+      "search_terms": ["cloud computing research platform", "secure research data enclave", "data science training"],
+      "url": "https://renci.org/research/groups/software-architecture/"
+    }
+  ]
+}

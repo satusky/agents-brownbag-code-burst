@@ -14,8 +14,7 @@ correct dates. Set ``STRUCTURED_OUTPUT_METHOD=json_schema`` to compare.
 
 Reasoning models keep their reasoning to themselves unless asked. Set
 ``REASONING_SUMMARY=auto`` (or ``concise``/``detailed``) and every model streams a
-summary of its reasoning through the Responses API; ``server/serve.py`` does this
-so the chat UI can show it. Off by default.
+summary of its reasoning through the Responses API. Off by default.
 """
 
 from __future__ import annotations

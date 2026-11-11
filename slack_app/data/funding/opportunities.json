@@ -1,0 +1,80 @@
+{
+  "_note": "Fictional funding opportunities for the seminar and workshop. Every agency, rule, amount and date here is made up. DEMO-101 to DEMO-103 are the seminar storyline; DEMO-104 and DEMO-105 are decoys that a good search should not rank highly.",
+  "opportunities": [
+    {
+      "id": "DEMO-101",
+      "title": "Research Software Seed Fund",
+      "agency": "Demo Foundation for Open Science (fictional)",
+      "summary": "Maintenance and community growth for reusable, open-source research software.",
+      "keywords": ["research software", "open source", "software sustainability", "maintenance", "community", "reusable tools"],
+      "eligibility": ["universities", "nonprofit research institutes"],
+      "deadlines": [
+        {"kind": "letter of intent", "date": "2026-11-10"},
+        {"kind": "full application", "date": "2026-12-03"}
+      ],
+      "rolling": false,
+      "award_max": null,
+      "url": "https://example.org/funding/DEMO-101",
+      "text": "DEMO-101 · Research Software Seed Fund (fictional). Supports maintenance and community growth of reusable, open-source research software. Eligible: universities and nonprofit research institutes. Letter of intent due 10 Nov 2026; full application due 3 Dec 2026."
+    },
+    {
+      "id": "DEMO-102",
+      "title": "Imaging Methods Accelerator",
+      "agency": "Demo Instrumentation Council (fictional)",
+      "summary": "New imaging instruments and detector hardware, including AI-enabled microscopes. Hardware focus.",
+      "keywords": ["imaging", "microscopy", "instrumentation", "detectors", "hardware", "AI-enabled instruments"],
+      "eligibility": ["universities"],
+      "deadlines": [
+        {"kind": "full application", "date": "2027-01-15"}
+      ],
+      "rolling": false,
+      "award_max": 750000,
+      "url": "https://example.org/funding/DEMO-102",
+      "text": "DEMO-102 · Imaging Methods Accelerator (fictional). Funds the design and construction of new imaging instruments, detectors and microscopes, including AI-enabled acquisition hardware. Software-only projects are not a priority. Eligible: universities. Awards up to $750,000. Full application due 15 Jan 2027."
+    },
+    {
+      "id": "DEMO-103",
+      "title": "Shared Data Infrastructure Program",
+      "agency": "Demo Data Commons Initiative (fictional)",
+      "summary": "Shared data repositories, pipelines and reproducible workflows used by several research groups. Rolling deadline.",
+      "keywords": ["data infrastructure", "data pipelines", "repositories", "reproducible workflows", "shared services"],
+      "eligibility": ["universities", "nonprofit research institutes", "research consortia"],
+      "deadlines": [],
+      "rolling": true,
+      "award_max": 400000,
+      "url": "https://example.org/funding/DEMO-103",
+      "text": "DEMO-103 · Shared Data Infrastructure Program (fictional). Supports shared data repositories, data pipelines and reproducible workflows that serve several research groups. Eligible: universities, nonprofit research institutes and research consortia. Awards up to $400,000. Applications are accepted on a rolling basis and reviewed quarterly."
+    },
+    {
+      "id": "DEMO-104",
+      "title": "Coastal Ecology Field Stations",
+      "agency": "Demo Marine Science Board (fictional)",
+      "summary": "Field station upgrades for long-term coastal ecology monitoring.",
+      "keywords": ["ecology", "coastal", "field stations", "monitoring", "marine"],
+      "eligibility": ["universities", "state agencies"],
+      "deadlines": [
+        {"kind": "full application", "date": "2026-10-20"}
+      ],
+      "rolling": false,
+      "award_max": 250000,
+      "url": "https://example.org/funding/DEMO-104",
+      "text": "DEMO-104 · Coastal Ecology Field Stations (fictional). Funds equipment and facilities for long-term coastal ecology monitoring at field stations. Eligible: universities and state agencies. Awards up to $250,000. Full application due 20 Oct 2026."
+    },
+    {
+      "id": "DEMO-105",
+      "title": "Teaching Innovation in Computing",
+      "agency": "Demo Education Fund (fictional)",
+      "summary": "Undergraduate course redesign in computing and data science. Closed for this cycle.",
+      "keywords": ["education", "teaching", "undergraduate", "curriculum", "computing courses"],
+      "eligibility": ["universities", "community colleges"],
+      "deadlines": [
+        {"kind": "preliminary proposal", "date": "2026-08-01"},
+        {"kind": "full application", "date": "2026-09-15"}
+      ],
+      "rolling": false,
+      "award_max": 150000,
+      "url": "https://example.org/funding/DEMO-105",
+      "text": "DEMO-105 · Teaching Innovation in Computing (fictional). Supports redesign of undergraduate computing and data science courses. Eligible: universities and community colleges. Awards up to $150,000. Preliminary proposal due 1 Aug 2026; full application due 15 Sep 2026."
+    }
+  ]
+}

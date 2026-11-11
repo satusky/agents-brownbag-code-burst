@@ -1,0 +1,12 @@
+{
+  "_note": "Every message goes to one channel, and each research group with a fit is mentioned above a table of its fits (group ids from data/research_profiles/renci_groups.json). A mention notifies people only when it is a Slack ID: a user group ID (S0123...), a member ID (U0123...), or a list of member IDs. Anything else, like the placeholders below, is shown as written and notifies no one. Set digest to false to skip the run summary. The app must be invited to the channel.",
+  "channel": "#brown-bag-demo",
+  "teams": {
+    "analytics": "@analytics-team",
+    "data_management": "@data-management-team",
+    "earth_data": "@earth-data-team",
+    "networking": "@networking-team",
+    "software": "@software-team"
+  },
+  "digest": true
+}

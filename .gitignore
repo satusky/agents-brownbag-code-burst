@@ -223,3 +223,6 @@ __marimo__/
 .venv/
 *.py[cod]
 .DS_Store
+
+# NIH watch: opportunities a live run posted to Slack
+.slack_posted.json

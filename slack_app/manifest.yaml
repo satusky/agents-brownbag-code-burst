@@ -1,0 +1,32 @@
+# Slack app for the NIH funding watch. Create it at https://api.slack.com/apps:
+# Create New App → From a manifest → pick your workspace → paste this file.
+# Already created? Your app → App Manifest → paste this file → Save, then reinstall.
+#
+# It posts messages (chat:write) and hears mentions of itself (app_mentions:read),
+# which `uv run funding-watch slack` turns into a pass. Socket Mode: no public URL.
+# The history and read scopes are for `uv run funding-watch slack-cleanup`, which finds
+# and deletes the bot's own messages in channels it has been invited to.
+display_information:
+  name: Funding Watch (demo)
+  description: Posts new NIH funding opportunities to one channel and mentions the research group that should see them.
+  background_color: "#1d3a5f"
+features:
+  bot_user:
+    display_name: funding-watch
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - app_mentions:read
+      - channels:history
+      - groups:history
+      - channels:read
+      - groups:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false

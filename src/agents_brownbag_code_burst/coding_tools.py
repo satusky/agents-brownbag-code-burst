@@ -1,8 +1,7 @@
 """The coding agent's four tools: read, edit and write files, and a very limited bash.
 
 Each run works in its own copy of ``examples/coding_agent/`` (the template is
-never changed), unless its config names a folder with ``project_dir`` (the UI
-agent, ``snippets/10_ui_agent.py``, works on the chat page's stylesheets that way). Paths
+never changed), unless its config names a folder with ``project_dir``. Paths
 must stay inside the project folder, and bash runs only ``ls``,
 ``grep`` and ``python example.py``. That is all a coding agent needs; this is a
 demo, not a sandbox.
